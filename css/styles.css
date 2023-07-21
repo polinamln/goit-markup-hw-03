@@ -77,6 +77,11 @@ body{
     text-transform: uppercase;
     color:var(--iris);
     text-decoration: none;
+    
+}
+
+.logotipe{
+    
     margin-right: 76px;
 }
 
@@ -209,14 +214,8 @@ body{
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);
+    position: fixed;
+    transform: scale(0);
   }
 
 .studio-second-title{
@@ -396,8 +395,9 @@ body{
 }
 
 .portfolio-second-li{
-    border: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
+    margin-bottom: 48px;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-second-items{
@@ -412,11 +412,13 @@ body{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .portfolio-second-text{
-    padding: 0px 16px;
+    padding: 32px 16px;
     gap: 8px;
+    border: 1px solid #e7e9fc;
 }
 
 /* ~-----------------FOOTER------------------ */
