@@ -208,9 +208,16 @@ body{
     padding: 120px 0;
 }
 
-.visually-hidden{
-    display: none;
-}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
 
 .studio-second-title{
     color: var(--navyblue, #2E2F42);
@@ -344,8 +351,8 @@ body{
 /* &-----------------1------------------ */
 
 .portfolio-first-section{
-    padding-top: 96px;
-    padding-bottom: 72px;
+    padding-top: 96px; 
+    padding-bottom: 120px;
 }
 
 .portfolio-buttons{
