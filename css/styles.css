@@ -67,10 +67,6 @@ body{
     
 }
 
-.studio-header-logo{
-    margin-right: 76px;
-
-}
 
 .logo{
     font-family: "Raleway", sans-serif;
@@ -81,6 +77,7 @@ body{
     text-transform: uppercase;
     color:var(--iris);
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .logo-accent{
@@ -134,9 +131,8 @@ body{
     color: var(--ocean);
 }
 
-.studio-navigation-menu{
-    display: flex;
-    gap: 40px;
+.navigation-menu{
+    padding: 24px 0;
 }
 
 .studio-navigation-item{
@@ -146,6 +142,8 @@ body{
 .navigation-list{
     align-items: center;
     margin-left: 76px;
+    display: flex;
+    gap: 40px;
 }
 
 .contacts-list{
@@ -192,6 +190,7 @@ body{
     padding: 16px 32px;
     display: block;
     margin: 0 auto;
+    min-width: 169px;
 }
 
 .studio-first-button:hover{
@@ -206,7 +205,11 @@ body{
 /* &-----------------2------------------ */
 
 .studio-second-section{
-    padding-top: 120px;
+    padding: 120px 0;
+}
+
+.visually-hidden{
+    display: none;
 }
 
 .studio-second-title{
@@ -230,14 +233,13 @@ body{
 }
 
 .studio-second-item{
-    width: calc((100% - 3 * 73) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 /* &-----------------3------------------ */
 
 .studio-third-section{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .studio-third-third-h{
@@ -275,7 +277,7 @@ body{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 
 }
 
@@ -295,12 +297,16 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 32px;
+}
+
+.card-text{
+    padding: 32px 0;
 }
 
 .studio-fourth-item{
     background-color: #FFFFFF;
-    width: 264px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
@@ -328,6 +334,11 @@ body{
 
 /* &-----------------PORTFOLIO------------------ */
 
+.portfolio-header{
+   border-bottom: 1px solid #e7e9fc 
+}
+
+
 /* ~-----------------MAIN------------------ */
 
 /* &-----------------1------------------ */
@@ -341,7 +352,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin: 0 auto;
+    margin-bottom: 72px
 }
 
 .portfolio-button{
@@ -354,17 +365,19 @@ body{
     letter-spacing: 0.04em;
     background: var(--cloud, #F4F4FD);
     cursor: pointer;
-    padding: 12px;
     border-radius: 4px;
     border: 1px solid var(--cornflower, #E7E9FC);
     display: block;
+    padding: 12px 24px;
 }
 
 .portfolio-button:hover{
+    border: 1px solid transparent;
     background-color: #404BBF;
     color: #FFFFFF;
 }
 .portfolio-button:focus {
+    border: 1px solid transparent;
     background-color: #404BBF;
     color: #FFFFFF;
 }
@@ -408,6 +421,7 @@ body{
 
 .footer-link{
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-p{
