@@ -80,10 +80,7 @@ body{
     
 }
 
-.logotipe{
-    
-    margin-right: 76px;
-}
+
 
 .logo-accent{
     color:var(--navyblue)
@@ -158,6 +155,9 @@ body{
     margin-right: auto;
 }
 
+.logotipe{
+    margin-right: 76px;
+}
 /* ~-----------------MAIN------------------ */
 
 /* &-----------------1------------------ */
@@ -214,9 +214,21 @@ body{
 }
 
 .visually-hidden {
-    position: fixed;
-    transform: scale(0);
-  }
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+  .navigation-list-portfolio{
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    row-gap: 48px;
+}
 
 .studio-second-title{
     color: var(--navyblue, #2E2F42);
@@ -419,6 +431,7 @@ body{
     padding: 32px 16px;
     gap: 8px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 /* ~-----------------FOOTER------------------ */
