@@ -19,22 +19,25 @@
     <!--*--------------------------------HEADER------------------------------------------->
 
     <header>
+      <div class="container header-container">
       <nav>
+        <div class="navigation-links">
         <a class="logo link" href="./index.html"
           >Web<span class="logo-accent">Studio</span></a
         >
-        <ul class="list">
-          <li class="navigation link">
-            <a class="link" href="./index.html">Studio</a>
+        <ul class="list navigation-list">
+          <li class="navigation">
+            <a class="link navigation-menu" href="./index.html">Studio</a>
           </li>
           <li class="navigation link">
-            <a class="link" href="./portfolio.html">Portfolio</a>
+            <a class="link navigation-menu" href="./portfolio.html">Portfolio</a>
           </li>
-          <li class="navigation link"><a class="link" href="">Contacts</a></li>
+          <li class="navigation"><a class="link navigation-menu" href="">Contacts</a></li>
         </ul>
+      </div>
       </nav>
       <address class="address">
-        <ul class="list">
+        <ul class="list contacts-list">
           <li class="contacts">
             <a class="link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -45,14 +48,19 @@
           </li>
         </ul>
       </address>
+    </div>
     </header>
 
     <!--*--------------------------------MAIN------------------------------------------->
 
     <main>
-      <section>
+
+<!--&--------------------------------1------------------------------------------->
+
+      <section class="portfolio-first-section">
+        <div class="container">
         <h1 hidden>Section "portfolio"</h1>
-        <ul class="list">
+        <ul class="list portfolio-buttons">
           <li><button type="button" class="portfolio-button">All</button></li>
           <li>
             <button type="button" class="portfolio-button">Web Site</button>
@@ -65,44 +73,59 @@
             <button type="button" class="portfolio-button">Marketing</button>
           </li>
         </ul>
+        </div>
+        </section>
 
-        <ul class="list">
-          <li>
+<!--&--------------------------------2------------------------------------------->
+
+        <section  class="portfolio-second-section">
+          <div class="container">
+        <ul class="list portfolio-second-items">
+          <li class="portfolio-second-li">
             <a class="link" href="">
               <img
                 src="./images/img_portfolio_1.jpg"
                 alt="Bank app"
                 width="360"
               />
+              <div class="portfolio-second-text">
               <h2 class="first-portfolio-title">
                 Banking App Interface Concept
               </h2>
               <p class="studio-second-p">App</p>
+              </div>
             </a>
           </li>
-          <li>
+
+          <li class="portfolio-second-li">
             <a class="link" href="">
               <img
                 src="./images/img_portfolio_2.jpg"
                 alt="Transaction"
                 width="360"
               />
+              <div class="portfolio-second-text">
               <h2 class="first-portfolio-title">Cashless Payment</h2>
               <p class="studio-second-p">Marketing</p>
+              </div>
             </a>
           </li>
-          <li>
+
+          <li class="portfolio-second-li">
             <a class="link" href="">
               <img
                 src="./images/img_portfolio_3.jpg"
                 alt="Laptop and smartphone"
                 width="360"
               />
+              <div class="portfolio-second-text">
               <h2 class="first-portfolio-title">Meditation App</h2>
               <p class="studio-second-p">App</p>
+              </div>
             </a>
           </li>
-          <li>
+
+          <li class="portfolio-second-li">
             <a class="link" href="">
               <img
                 src="./images/img_portfolio_4.jpg"
@@ -110,22 +133,28 @@
                 steering wheel"
                 width="360"
               />
+              <div class="portfolio-second-text">
               <h2 class="first-portfolio-title">Taxi Service</h2>
               <p class="studio-second-p">Marketing</p>
+              </div>
             </a>
           </li>
-          <li>
+
+          <li class="portfolio-second-li">
             <a class="link" href="">
               <img
                 src="./images/img_portfolio_5.jpg"
                 alt="Smartphone"
                 width="360"
               />
+              <div class="portfolio-second-text">
               <h2 class="first-portfolio-title">Screen Illustrations</h2>
               <p class="studio-second-p">Design</p>
+              </div>
             </a>
           </li>
-          <li>
+
+          <li class="portfolio-second-li">
             <a class="link" href="">
               <img
                 src="./images/img_portfolio_6.jpg"
@@ -133,53 +162,68 @@
                 music"
                 width="360"
               />
+              <div class="portfolio-second-text">
               <h2 class="first-portfolio-title">Online Courses</h2>
               <p class="studio-second-p">Marketing</p>
+              </div>
             </a>
           </li>
-          <li>
+
+          <li class="portfolio-second-li">
             <a class="link" href="">
               <img
                 src="./images/img_portfolio_7.jpg"
                 alt="Instagram Stories"
                 width="360"
               />
+              <div class="portfolio-second-text">
               <h2 class="first-portfolio-title">Instagram Stories Concept</h2>
               <p class="studio-second-p">Design</p>
+              </div>
             </a>
           </li>
-          <li>
+
+          <li class="portfolio-second-li">
             <a class="link" href="">
               <img
                 src="./images/img_portfolio_8.jpg"
                 alt="Organic food"
                 width="360"
               />
+              <div class="portfolio-second-text">
               <h2 class="first-portfolio-title">Organic Food</h2>
               <p class="studio-second-p">Web Site</p>
+              </div>
             </a>
           </li>
-          <li>
+
+          <li class="portfolio-second-li">
             <a class="link" href="">
               <img src="./images/img_portfolio_9.jpg" alt="Coffe" width="360" />
+              <div class="portfolio-second-text">
               <h2 class="first-portfolio-title">Fresh Coffee</h2>
               <p class="studio-second-p">Web Site</p>
+              </div>
             </a>
           </li>
+
         </ul>
+      </div>
       </section>
     </main>
 
     <!--*--------------------------------FOOTER------------------------------------------->
 
     <footer class="studio-footer">
-      <a class="logo link" href="./index.html"
+      <div class="container">
+      <a class="logo link footer-link" href="./index.html"
         >Web<span class="logo-accent-footer">Studio</span></a
       >
       <p class="footer-p">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+    </div>
     </footer>
   </body>
 </html>
