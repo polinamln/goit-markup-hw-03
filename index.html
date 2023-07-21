@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -19,21 +19,21 @@
   <body style="font-family: Roboto, sans-serif; color: #434455">
     <!--*--------------------------------HEADER------------------------------------------->
 
-    <header>
+    <header class="studio-header">
       <div class="container header-container">
-      <nav>
+      <nav class="header-nav">
         <div class="navigation-links">
-        <a class="logo link" href="./index.html"
+        <a class="logo link studio-header-logo" href="./index.html"
           >Web<span class="logo-accent">Studio</span></a
         >
-        <ul class="list navigation-list">
-          <li class="navigation">
+        <ul class="list navigation-list studio-navigation-menu">
+          <li class="navigation studio-navigation-item">
             <a class="link navigation-menu" href="./index.html">Studio</a>
           </li>
-          <li class="navigation link">
+          <li class="navigation studio-navigation-menu">
             <a class="link navigation-menu" href="./portfolio.html">Portfolio</a>
           </li>
-          <li class="navigation"><a class="link navigation-menu" href="">Contacts</a></li>
+          <li class="navigation studio-navigation-menu"><a class="link navigation-menu" href="">Contacts</a></li>
         </ul>
       </div>
       </nav>
@@ -60,12 +60,10 @@
 
       <section class="studio-first-section">
         <div class="container">
-          <div class="studio-first-background">
         <h1 class="studio-first-title">
           Effective Solutions for Your Business
         </h1>
         <button class="studio-first-button" type="button">Order Service</button>
-        </div>
       </div>
       </section>
 

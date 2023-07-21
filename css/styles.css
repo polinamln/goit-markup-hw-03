@@ -14,12 +14,14 @@
     --dairy: #FCFCFC;
 }
 
+img{
+    display: block
+}
 
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding-right: 156px;
-    padding-left: 156px;
+    padding: 0 15px
 }
 
 p h1 h2 h3 h4 h5 h6{
@@ -44,17 +46,30 @@ body{
 
 /* ~-----------------HEADER------------------ */
 
+.studio-header{
+    border-bottom: 1px solid #e7e9fc; 
+}
+
 .header-container{
     display: flex;
     align-items: center;
     gap: 332px;
-    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
 }
 
 .navigation-links{
     display: flex;
     align-items: center;
     
+}
+
+.studio-header-logo{
+    margin-right: 76px;
+
 }
 
 .logo{
@@ -119,17 +134,19 @@ body{
     color: var(--ocean);
 }
 
-.navigation-list{
+.studio-navigation-menu{
     display: flex;
-    align-items: center;
     gap: 40px;
-    margin-left: 76px;
 }
 
-.navigation-menu{
+.studio-navigation-item{
     padding: 24px 0;
 }
 
+.navigation-list{
+    align-items: center;
+    margin-left: 76px;
+}
 
 .contacts-list{
     display: flex;
@@ -145,13 +162,9 @@ body{
 .studio-first-section{
     background-color: var(--navyblue);
     width: 1440px;
+    padding: 188px 0;
 }
 
-
-.studio-first-background{
-    padding-bottom: 188px;
-    padding-top: 188px; 
-}
 
 .studio-first-title{
     color: var(--white, #FFF);
@@ -160,7 +173,7 @@ body{
     line-height: 1.07;
     letter-spacing: 0.02em;
     padding-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
     
 }
