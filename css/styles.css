@@ -51,6 +51,7 @@ body{
 }
 
 .header-container{
+    height: 72px;
     display: flex;
     align-items: center;
     gap: 332px;
