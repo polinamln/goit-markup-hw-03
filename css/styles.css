@@ -260,6 +260,7 @@ body{
 /* &-----------------3------------------ */
 
 .studio-third-section{
+    padding: 120px 0;
 }
 
 .studio-third-third-h{
@@ -279,7 +280,7 @@ body{
 }
 
 .studio-third-item{
-    width: calc((100& - 2 * 44) / 3);
+    width: calc((100% - 2 * 44) / 3);
 }
 
 /* &-----------------4------------------ */
